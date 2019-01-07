@@ -1,0 +1,31 @@
+.charCard {
+    border: 4px grey solid;
+    border-radius: 2px;
+    width: 170px;
+    height: 170px;
+    margin: 8px 25px;
+    position: relative;
+    box-shadow: 4px 4px 10px black;
+    transition: all .2s ease-in-out;
+    background-size: cover;
+    background-position: 50%;
+}
+.charCard > .charImg {
+    height: 100%;
+    overflow: hidden;
+    background: white;
+}
+
+.charCard > .charImg > img {
+    height: 100%;
+}
+
+.charCard:hover {
+    box-shadow: 8px 8px 20px black;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.charCard:active {
+    transform: translate(1px, 1px);
+}
